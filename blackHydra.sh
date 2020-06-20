@@ -17,8 +17,8 @@ vncBrute() {
 }
 
 ftpBrute() {
-	read -p "[*] User: " user
 	read -p "[*] IP/Hostname: " targetAddress
+	read -p "[*] User: " user
 	read -p "[*] Wordlist: " wordlist
 
 	hydra -l $user -P $wordlist $targetAddress ftp
@@ -34,24 +34,24 @@ gmailBrute() {
 }
 
 sshBrute() {
-	read -p "[*] User: " user
 	read -p "[*] IP/Hostname: " targetAddress
+	read -p "[*] User: " user
 	read -p "[*] Wordlist: " wordlist
 
 	hydra -l $user -P $wordlist $targetAddress ssh
 }
 
 tsBrute() {
-	read -p "[*] User: " user
 	read -p "[*] IP/Hostname: " targetAddress
+	read -p "[*] User: " user
 	read -p "[*] Wordlist: " wordlist
 
 	hydra -l $user -P $wordlist -s 8676 $targetAddress teamspeak
 }
 
 telnetBrute() {
-	read -p "[*] User: " user
 	read -p "[*] IP/Hostname: " targetAddress
+	read -p "[*] User: " user
 	read -p "[*] Wordlist: " wordlist
 
 	hydra -l $user -P $wordlist $targetAddress telnet
@@ -72,16 +72,16 @@ hotmailBrute() {
 }
 
 routerSpeedyBrute() {
-	read -p "[*] User: " user
 	read -p "[*] IP/Hostname: " targetAddress
+	read -p "[*] User: " user
 	read -p "[*] Wordlist: " wordlist
 
 	hydra -m / -l $user -P $wordlist $targetAddress http-get
 }
 
 rdpBrute() {
-	read -p "[*] User: " user
 	read -p "[*] IP/Hostname: " targetAddress
+	read -p "[*] User: " user
 	read -p "[*] Wordlist: " wordlist
 
 	hydra -t 1 -V -f -l $user -P $wordlist $targetAddress rdp
