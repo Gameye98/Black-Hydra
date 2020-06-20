@@ -6,7 +6,7 @@ ciscoBrute() {
 	read -p "[*] IP/Hostname: " targetAddress
 	read -p "[*] Wordlist: " wordlist
 	
-	echo "hydra -P $wordlist $targetAddress cisco"
+	hydra -P $wordlist $targetAddress cisco
 }
 
 vncBrute() {
