@@ -14,5 +14,5 @@ Hydra is needed for the process of this program :).
 
 # then be happy :)
 
-# Telegram:
+# Contact me:
 **my telegram: https://t.me/kaiilou**
