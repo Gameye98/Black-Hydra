@@ -10,6 +10,8 @@ Hydra is needed for the process of this program :).
 
 **set execute permission** `chmod +x blackHydra.sh` 
 
+**to execute:** `./blackHydra.sh`
+
 # then be happy :)
 
 # Telegram:
