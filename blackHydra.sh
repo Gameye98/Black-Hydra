@@ -38,7 +38,7 @@ sshBrute() {
 	read -p "[*] User: " user
 	read -p "[*] Wordlist: " wordlist
 
-	hydra -l $user -P $wordlist $targetAddress ssh
+	hydra -t 4 -l $user -P $wordlist $targetAddress ssh
 }
 
 tsBrute() {
