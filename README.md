@@ -23,8 +23,8 @@ Hydra is needed for the process of this program :).
 <img src=".src/blhydra.png">
 
 ### Contact Me
-[My FB Account](https://www.facebook.com/Gameye98)
-[My Telegram Account](https://t.me/dtlily)
-[BHS Facebook Page](https://m.facebook.com/groups/1704985559810669)
-[BHS Telegram Channel](https://t.me/bhs3c)
+[My FB Account](https://www.facebook.com/Gameye98)  
+[My Telegram Account](https://t.me/dtlily)  
+[BHS Facebook Page](https://www.facebook.com/2018336478223944/)  
+[BHS Telegram Channel](https://t.me/bhs3c)  
 [BHS Telegram Group](https://t.me/BHSec)
