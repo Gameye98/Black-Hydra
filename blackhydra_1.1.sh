@@ -132,7 +132,9 @@ function main_c {
 	while true; do
 		read -p "[*] B-Hydra > exec_num " bhydra
 		# Cisco Brute Force
-		if [[ "${bhydra}" == "01" || "${bhydra}" == "1" ]]; then
+		if [[ "${bhydra}" == "00" || "${bhydra}" == "0" ]]; then
+			exit
+		elif [[ "${bhydra}" == "01" || "${bhydra}" == "1" ]]; then
 			printf "${bhydra_cisco}\n\n"
 			bhydraLogWarn
 			read -p "[*] IP/Hostname : " bhydra_iphost
